@@ -34,7 +34,7 @@ import numpy as np
 # Mange : rien
 # Retourne : un DF de tous les films provenant du csv, propre avec bons types
 def import_prep_dffilms():
-    DF_films = pd.read_csv("C:/Users/Sitra/OneDrive/Documents/projet films/df_pandas.csv")
+    DF_films = pd.read_csv("df_pandas.csv")
     ##création des colonnes minuscules pour original et primary title:
     DF_films=DF_films.assign(originaltitlemin=DF_films['originalTitle'].str.lower(),primarytitlemin=DF_films['primaryTitle'].str.lower())
     ##changer les actor et actress en liste:
