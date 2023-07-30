@@ -61,7 +61,7 @@ def import_prep_dffilms():
             DF_films['films_WW'][i]=1
     ##changer la colonne genre en list:
     DF_films['genres']=DF_films['genres'].apply(lambda x: list(x.split(',')))
-    OHencod = OneHotEncoder(sparse=False)
+    #OHencod = OneHotEncoder(sparse=False)
     # je fais un OneHotEncoder avec mes liste dans genres
     mlb = MultiLabelBinarizer()
     df_genres_encod = pd.DataFrame(mlb.fit_transform(DF_films['genres']),columns=mlb.classes_, index=DF_films.index)
