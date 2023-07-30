@@ -18,7 +18,7 @@ from ast import literal_eval
 import streamlit as st
 import numpy as np
 # import matplotlib.pyplot as plt
-import seaborn as sns
+# import seaborn as sns
 
 from sklearn.preprocessing import StandardScaler
 
