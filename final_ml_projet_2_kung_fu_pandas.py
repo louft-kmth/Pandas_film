@@ -16,8 +16,8 @@ pd.options.mode.chained_assignment = None
 from ast import literal_eval
 import streamlit as st
 import numpy as np
-##import matplotlib.pyplot as plt
-# import seaborn as sns
+import matplotlib.pyplot as plt
+import seaborn as sns
 import sklearn
 from sklearn.preprocessing import StandardScaler
 
