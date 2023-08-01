@@ -12,21 +12,21 @@ Original file is located at
 ##from google.colab import  drive
 ##drive.mount('/drive')
 
-import pandas as pd
-pd.options.mode.chained_assignment = None
-from ast import literal_eval
-import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import pandas as pd
+# pd.options.mode.chained_assignment = None
+# from ast import literal_eval
+# import streamlit as st
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 
-from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import StandardScaler
 
-from sklearn.neighbors import NearestNeighbors
+#from sklearn.neighbors import NearestNeighbors
 
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import OrdinalEncoder
-from sklearn.preprocessing import MultiLabelBinarizer
+#from sklearn.preprocessing import OneHotEncoder
+#from sklearn.preprocessing import OrdinalEncoder
+#from sklearn.preprocessing import MultiLabelBinarizer
 
 ##"""# **ETAPE 2 : MISE EN PETITES BRIQUES**"""
 
