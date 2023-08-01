@@ -152,7 +152,7 @@ def filmslesplusproches(ligne_1film, DF_films, scaler_films, model_films):
 
 
 from PIL import Image
-image=Image.open('C:/Users/Sitra/OneDrive/Documents/projet films/la creuse.jpg')
+image=Image.open('la creuse.jpg')
 # st.image(image)
 # st.title(':red[Recommandations de films frissons] :sunglasses:')
 options = st.sidebar.radio("Menu:star2:",options=['Présentation', "KPI", "Recommandations de films",])#"Actualisation des données" ])
