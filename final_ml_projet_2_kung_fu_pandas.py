@@ -18,13 +18,13 @@ import streamlit as st
 import numpy as np
 ##import matplotlib.pyplot as plt
 # import seaborn as sns
-from sklearn.preprocessing import StandardScaler
+from scikit_learn.preprocessing import StandardScaler
 
-from sklearn.neighbors import NearestNeighbors
+from scikit_learn.neighbors import NearestNeighbors
 
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import OrdinalEncoder
-from sklearn.preprocessing import MultiLabelBinarizer
+from scikit_learn.preprocessing import OneHotEncoder
+from scikit_learn.preprocessing import OrdinalEncoder
+from scikit_learn.preprocessing import MultiLabelBinarizer
 
 
 ##"""# **ETAPE 2 : MISE EN PETITES BRIQUES**"""
